@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selectors </title>
+    <style>
+        .ab{
+            color: darkgoldenrod;
+
+        }
+        .xy{
+            color: orangered;
+        }
+        #sy{
+            color: black;
+        }
+        .gh{
+            color:white;
+        }
+        #five{
+            color: white;
+            background-color: chocolate;
+        }
+        h3{
+            color: white;
+            background-color: darkred;
+        }
+        .sel{
+            color: darkred;
+            background-color: darkkhaki;
+        }
+        .el{
+            color: white;
+        }
+        body{
+            background-image: url("https://tse1.mm.bing.net/th/id/OIP.-PNPT_x7RM8appu-emLT8gHaEZ?pid=Api&P=0&h=180");
+            background-size: 100%;
+            background-blend-mode:screen
+
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 style="color:red"> Cascading Sytle sheets (CSS) </h1>
+    <p> <strong> CSS (Cascading Style Sheets) is a language designed to simplify the process of making web pages presentable.</strong></p>
+   <ol style="color:white"> <p> <strong> It allows you to apply styles to HTML documents by prescribing colors, fonts, spacing, and positioning. The main advantages are the separation of content (in HTML) and styling (in CSS) and the same CSS rules can be used across all pages and not have to be rewritten.HTML uses tags, and CSS uses rule sets. CSS styles are applied to the HTML element using selectors. 
+</strong></p>
+   </ol>
+    <p> <b> There are Three ways to insert a style sheet into an html document  :
+        <ul class="ab"> 
+            <li> Inline </li>
+            <li> Internal </li>
+            <li> External </li>
+        </ul>
+        <p class="xy"> <b> Inline : </b> An Inline style is used to apply a unique style for a single element  </p>
+        <p id="sy"> <b> Internal : </b> The internal style sheet may be used if one single  </p>
+        <p class="gh"><b> External : </b> With an external style sheet, you can change the look of an entire website by changing just one file!</p>
+    </b>
+    </p>
+
+    <h2> <u> Selectors </u> </h2> 
+    <h4> CSS Selectors are used to select the html element you want to style </h4>
+
+    <p id="five"> <b> There are Five types of selectors we have : </b></p>
+    <ol>
+        <li style="color: orange;"> Simple selectors </li>
+        <ul> 
+        <li class="el"> Element </li>
+        <li class="el"> Class </li>
+        <li class="el"> Id </li>
+        <li class="el"> Grouping </li>
+        <li class="el"> Universal </li>
+        </ul> 
+        <li style="color:mediumaquamarine;"> combinator </li>
+        <li style="color: orange"> Attribute </li>
+        <li style="color: white;"> Pseudo classes </li>
+        <li style="color:orange"> Pseudo elements</li>
+    </ol>
+    <h3> Simple Selectors </h3>
+    <h4> We have five types in simple selectors </h4>
+    <h4 class="sel"> Id Selector </h4>
+
+    <p> <strong>
+        The id selector uses the id attribute of an HTML element to select a specific element.
+        The id of an element is unique within a page, so the id selector is used to select one unique element! 
+        To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+    </strong>
+    </p>
+    <h4 class="sel"> Class Selectors </h4>
+    <p> <strong> The class selector selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name.</strong></p>
+    <h4 class="sel"> Element selector</h4>
+    <p> <strong> Targets all elements of a specific type, such as paragraphs or headers. For example, setting a common font size for all paragraphs (P)</strong></p>
+    <h4 class="sel">Grouping selector </h4>
+    <p> <strong> Selects multiple elements by seperating each selector by comma(,) Ex: (p,.ab,#xy)</strong></p>
+    <h4 class="sel"> Grouping Selectors </h4>
+    <p> <strong> The universal selector (*) selects all HTML elements on the page.</strong></p>
+</body>
+</html>
